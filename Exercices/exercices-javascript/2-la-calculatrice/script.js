@@ -2,22 +2,37 @@
 //Utilisez le bout de code suivant pour ajouter un évennement sur chaque bouton en remplacant le paramètre de getElementById par l'ID correspondant au bouton
 
 function additionOnClick() {
-    document.getElementById("").addEventListener("click", function addition() {
+    document.getElementById("addition").addEventListener("click", function addition() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice
+       let second_number = parseInt(document.getElementById("second-number").value)  ;
+       let first_number = parseInt(document.getElementById("first-number").value)  ;
+       alert(first_number + second_number);
 
 })};
 
 function substractionOnClick() {
-    document.getElementById("").addEventListener("click", function substract() {
+    document.getElementById("soustraction").addEventListener("click", function substract() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice 
+        let second_number = parseInt(document.getElementById("second-number").value)  ;
+        let first_number = parseInt(document.getElementById("first-number").value)  ;
+        alert(first_number - second_number);
 })};
 
 function divisionOnClick() {
-    document.getElementById("").addEventListener("click", function division() {
+    console.log("division");
+    document.getElementById("division").addEventListener("click", function division() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice 
+        console.log("i am called ");
+        let second_number = parseInt(document.getElementById("second-number").value)  ;
+        let first_number = parseInt(document.getElementById("first-number").value)  ;
+        alert(first_number / second_number);
 })};
 
 function multiplicationOnClick() {
-    document.getElementById("").addEventListener("click", function multiplication() {
+    console.log("multiplicationOnClick");
+    document.getElementById("multiplication").addEventListener("click", function multiplication() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice 
+        let second_number = parseInt(document.getElementById("second-number").value)  ;
+        let first_number = parseInt(document.getElementById("first-number").value)  ;
+        alert(first_number * second_number);
 })};

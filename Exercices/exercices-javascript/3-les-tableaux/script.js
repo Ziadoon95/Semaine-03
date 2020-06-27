@@ -2,12 +2,17 @@
 
 let castArray= ["Robin", "Barney", "Lily", "Marshal"];
 
+castArray.push("Ted");
+
 // Exercice 2: Affiche l'index de "Ted" dans le tableau dans la console
 
+console.log(castArray[4])
+
 // Exercice 3: Affiche l'index de Robin dans le tableau dans la console
+console.log(castArray.indexOf("Robin"))
 
 // Exercice 4: retire "Robin" du tableau
-
+castArray.shift();
 // Exercice 5: retire "Ted" du tableau
 
 // Exercice 6: ajoute "Ted" et "Robin" au tableau
