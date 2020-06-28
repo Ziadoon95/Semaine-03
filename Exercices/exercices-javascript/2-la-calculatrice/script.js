@@ -19,17 +19,14 @@ function substractionOnClick() {
 })};
 
 function divisionOnClick() {
-    console.log("division");
     document.getElementById("division").addEventListener("click", function division() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice 
-        console.log("i am called ");
         let second_number = parseInt(document.getElementById("second-number").value)  ;
         let first_number = parseInt(document.getElementById("first-number").value)  ;
         alert(first_number / second_number);
 })};
 
 function multiplicationOnClick() {
-    console.log("multiplicationOnClick");
     document.getElementById("multiplication").addEventListener("click", function multiplication() {
         // Insérez ici le bout de code nécessaire à la réalisation de l'exercice 
         let second_number = parseInt(document.getElementById("second-number").value)  ;
