@@ -13,7 +13,7 @@ span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: b
 
 /* EXERCICE 1.1 */
 section{
-  display:block;
+  display:flex;
 }
 
 /* EXERCICE 1.2 */
