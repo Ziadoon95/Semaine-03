@@ -12,10 +12,10 @@ span { background-color: rgba(255, 255, 255, .5); border-radius: 50%; display: b
 /* Commentez les propriétés CSS des exercices sur lesquels vous ne travaillez pas. Mais surtout ne les effacez pas, je vérifierai le code de chacun des exercices */
 
 /* EXERCICE 1.1 */
-section{
-  display:flex;
-}
-
+/* section {
+  display: flex;
+   align-items:  flex-start ;
+}  */
 /* EXERCICE 1.2 */
 /* section {
   display:block;
