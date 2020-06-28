@@ -32,7 +32,7 @@ do{
     let dateTest = new Date(YEAR,mois,DAY);
     if(dateTest.getDay()==0)
     {
-        console.log(dateTest.getDate(),dateTest.getMonth());
+        console.log(dateTest.getMonth());
     }
     
 }while(mois <= 12)
