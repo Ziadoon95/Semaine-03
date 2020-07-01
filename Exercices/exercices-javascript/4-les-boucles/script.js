@@ -24,15 +24,16 @@ fizzBuzzArray.forEach(element =>{
 })
 
 // Exercice 3: A l'aide de l'objet Date (voir: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Date) affiche tous les vendredi 13 de l'année 2020
-const YEAR = 2020 , DAY  = 13 ;
+
 let mois = 0 ;
+const year = 2020, day = 13;
 
 do{
     mois++;
-    let dateTest = new Date(YEAR,mois,DAY);
-    if(dateTest.getDay()==0)
+    let dateTest = new Date(year,mois,day);
+    if(dateTest.getDay()==5)
     {
         console.log(dateTest.getMonth());
     }
     
-}while(mois <= 12)
+}while(mois < 11)
