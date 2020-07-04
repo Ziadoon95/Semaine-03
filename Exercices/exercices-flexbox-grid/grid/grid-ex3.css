@@ -11,5 +11,12 @@ footer { background-color: #073b4c; }
 
 /* EXERCICE 3 */
 .container {
-  display: block;
+  display: grid;
+   grid-template-columns: 20% auto  20% ;
+  grid-template-rows: 30px 80px 30px
+  
+}
+header , footer {
+   grid-column: 1/4;
+
 }
